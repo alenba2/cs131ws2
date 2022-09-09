@@ -1,0 +1,18 @@
+    1  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    2  history > cmds.log
+    3  logout
+    4  ls
+    5  date >> counts.txt
+    6  ls
+    7  wc amazon_reviews_us_Books_v1_02.tsv
+    8  cat counts.txt
+    9  kate counts.txt
+   10  kat counts.txt
+   11  vi counts.txt
+   12  wc amazon_reviews_us_Books_v1_02.tsv > counts.txt
+   13  vi counts.txt
+   14  history > cmds.log
+   15  vi cmds.log
+   16  awk '$12=="Y" {print}' amazon_reviews_us_Books_v1_02.tsv
+   17  awk '$12=="N" {print}' amazon_reviews_us_Books_v1_02.tsv
+   18  history > cmds.log
